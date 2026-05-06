@@ -29,7 +29,7 @@ def _take_screenshot() -> bytes:
     return result.stdout
 
 def _tap(x: int, y: int) -> None:
-    _adb("input tap {x} {y}")
+    _adb(f"shell input tap {x} {y}")
 
 ##----------------------------steps main
 
