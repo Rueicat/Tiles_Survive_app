@@ -3,6 +3,9 @@ from pathlib import Path
 
 ADB = Path(__file__).parent.parent / "tools" / "adb.exe"
 
+# 預設port
+DEFAULT_PORT = 5555
+
 def _run_adb(args: list[str], timeout: int = 10) -> tuple[int, str, str]:
     
     result = subprocess.run(
@@ -13,8 +16,8 @@ def _run_adb(args: list[str], timeout: int = 10) -> tuple[int, str, str]:
     )
     return result.returncode, result.stdout.strip(), result.stderr.strip()
 
-
-def connect_bluestacks(port: int) -> tuple[bool, str]:
+# 有預設值
+def connect_bluestacks(port: int = DEFAULT_PORT) -> tuple[bool, str]:
 
     target = f"127.0.0.1:{port}"
 
@@ -49,15 +52,15 @@ def connect_bluestacks(port: int) -> tuple[bool, str]:
             if state == "device":
                 return True, target
             else:
-                return False, F"Device {target} is in state: {state}"
+                return False, f"Device {target} is in state: {state}"
+
     return False, f"Device {target} not found in adb devices list"
         
 
 ## unit test
 if __name__ == "__main__":
-    port = 5555
 
-    success, message = connect_bluestacks(port)
+    success, message = connect_bluestacks()
 
     if success:
         print(f"[OK] connected to {message}")
