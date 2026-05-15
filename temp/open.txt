@@ -1,0 +1,771 @@
+PS D:\repository\dian_dians_app\tools> .\adb.exe -s 127.0.0.1:5555 logcat -s Unity:V
+--------- beginning of system
+--------- beginning of main
+05-08 14:39:21.385  5241  5321 I Unity   : MemoryManager: Using 'Dynamic Heap' Allocator.
+05-08 14:39:22.177  5241  5321 I Unity   : SystemInfo CPU = ARMv7 VFPv3 NEON, Cores = 4, Memory = 3940mb
+05-08 14:39:22.177  5241  5321 I Unity   : SystemInfo ARM big.LITTLE configuration: 4 big (mask: 0xf), 0 little (mask: 0x0)
+05-08 14:39:22.177  5241  5321 I Unity   : ApplicationInfo com.funplus.ts.global version 2.5.100
+05-08 14:39:22.177  5241  5321 I Unity   : Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch, Version '2022.3.62f2 (7670c08855a9)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a', Stripping 'Enabled'
+05-08 14:39:22.606  5241  5321 I Unity   : Company Name: Kingsgroup
+05-08 14:39:22.606  5241  5321 I Unity   : Product Name: TilesSurvive
+05-08 14:39:22.714  5241  5321 D Unity   :  GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_shader_framebuffer_fetch GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_KHR_texture_compression_astc_ldr GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_bptc GL_KHR_texture_compression_astc_ldr GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr GL_EXT_robustness GL_OES_compressed_ETC1_RGB8_texture GL_EXT_copy_image GL_EXT_texture_buffer
+05-08 14:39:23.829  5241  5321 I Unity   : /storage/emulated/0/Android/data/com.funplus.ts.global/files/../LocalVCR/Default
+05-08 14:39:23.829  5241  5321 I Unity   : VCRInput.VCRInputManager:Awake()
+05-08 14:39:23.829  5241  5321 I Unity   :
+05-08 14:39:23.830  5241  5321 I Unity   : CaseIndex
+05-08 14:39:23.830  5241  5321 I Unity   : VCRInput.VCRInputManager:Awake()
+05-08 14:39:23.830  5241  5321 I Unity   :
+05-08 14:39:23.885  5241  5321 E Unity   : [14:39:23]<color="#CC3300">[GameFacade]</color> GameFacade OnApplicationPause: False
+05-08 14:39:23.885  5241  5321 E Unity   : NexgenDragon.LoggerHandler:Log(String, Object, LogSeverity, Object, Object[])
+05-08 14:39:23.885  5241  5321 E Unity   : NexgenDragon.GameFacade:OnApplicationPause(Boolean)
+05-08 14:39:23.885  5241  5321 E Unity   :
+05-08 14:39:23.889  5241  5321 I Unity   : [KGLog] KGLog not been init.
+05-08 14:39:23.889  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:traceEvent(String, Dictionary`2, Dictionary`2, Boolean)
+05-08 14:39:23.889  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:applicationFocus(Boolean)
+05-08 14:39:23.889  5241  5321 I Unity   :
+05-08 14:39:23.889  5241  5321 I Unity   : [KGLog] KGLog not been init.
+05-08 14:39:23.889  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:traceEvent(String, Dictionary`2, Dictionary`2, Boolean)
+05-08 14:39:23.889  5241  5321 I Unity   :
+05-08 14:39:24.155  5241  5321 I Unity   : [KGPushInternal] OnApplicationAwake
+05-08 14:39:24.155  5241  5321 I Unity   : com.kingsgroup.sdk.KGPushInternal:Awake()
+05-08 14:39:24.155  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.155  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.155  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.155  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.155  5241  5321 I Unity   :
+05-08 14:39:24.157  5241  5321 I Unity   : [KGInternal] OnApplicationAwake
+05-08 14:39:24.157  5241  5321 I Unity   : com.kingsgroup.sdk.KGInternal:Awake()
+05-08 14:39:24.157  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.157  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.157  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.157  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.157  5241  5321 I Unity   :
+05-08 14:39:24.159  5241  5321 I Unity   : [KGInternal] gameObjectName = NexgenDragon.DistributionManager
+05-08 14:39:24.159  5241  5321 I Unity   : com.kingsgroup.sdk.KGInternal:Awake()
+05-08 14:39:24.159  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.159  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.159  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.159  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.159  5241  5321 I Unity   :
+05-08 14:39:24.161  5241  5321 I Unity   : [KGPaymentInternal] OnApplicationAwake
+05-08 14:39:24.161  5241  5321 I Unity   : com.kingsgroup.sdk.KGPaymentInternal:Awake()
+05-08 14:39:24.161  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.161  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.161  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.161  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.161  5241  5321 I Unity   :
+05-08 14:39:24.162  5241  5321 I Unity   : [KGPaymentInternal] gameObjectName = NexgenDragon.DistributionManager
+05-08 14:39:24.162  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.162  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.162  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.162  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.162  5241  5321 I Unity   :
+05-08 14:39:24.163  5241  5321 I Unity   : [KGShareSDKInternal] OnApplicationAwake
+05-08 14:39:24.163  5241  5321 I Unity   : com.kingsgroup.sdk.KGShareSDKInternal:Awake()
+05-08 14:39:24.163  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.163  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.163  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.163  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.163  5241  5321 I Unity   :
+05-08 14:39:24.167  5241  5321 I Unity   : [FPAccountInternal] OnApplicationAwake
+05-08 14:39:24.167  5241  5321 I Unity   : com.kingsgroup.sdk.FPAccountInternal:Awake()
+05-08 14:39:24.167  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.167  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.167  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.167  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.167  5241  5321 I Unity   :
+05-08 14:39:24.170  5241  5321 I Unity   : [KGHuaweiInternal] OnApplicationAwake
+05-08 14:39:24.170  5241  5321 I Unity   : com.kingsgroup.sdk.KGHuaweiInternal:Awake()
+05-08 14:39:24.170  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.170  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.170  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.170  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.170  5241  5321 I Unity   :
+05-08 14:39:24.174  5241  5321 W Unity   : [KGHuaweiAndroidImpl]==> not found android KGHuawei UnityBridge
+05-08 14:39:24.174  5241  5321 W Unity   : com.kingsgroup.sdk.KGHuaweiInternal:InitSDKImpl()
+05-08 14:39:24.174  5241  5321 W Unity   : com.kingsgroup.sdk.KGHuaweiInternal:Awake()
+05-08 14:39:24.174  5241  5321 W Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.174  5241  5321 W Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.174  5241  5321 W Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.174  5241  5321 W Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.174  5241  5321 W Unity   :
+05-08 14:39:24.178  5241  5321 I Unity   : [KGPrivacyInternal] OnApplicationAwake
+05-08 14:39:24.178  5241  5321 I Unity   : com.kingsgroup.sdk.KGPrivacyInternal:Awake()
+05-08 14:39:24.178  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.178  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.178  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.178  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.178  5241  5321 I Unity   :
+05-08 14:39:24.181  5241  5321 I Unity   : [KGStreamingInternal] OnApplicationAwake
+05-08 14:39:24.181  5241  5321 I Unity   : com.kingsgroup.sdk.KGStreamingInternal:Awake()
+05-08 14:39:24.181  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.181  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.181  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.181  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.181  5241  5321 I Unity   :
+05-08 14:39:24.183  5241  5321 I Unity   : [KGStreamingAndroidImpl] setGameObjectName
+05-08 14:39:24.183  5241  5321 I Unity   : com.kingsgroup.sdk.KGStreamingAndroidImpl:setGameObjectName(String)
+05-08 14:39:24.183  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.183  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.183  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.183  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.183  5241  5321 I Unity   :
+05-08 14:39:24.188  5241  5321 I Unity   : [KGCommunityInternal] OnApplicationAwake
+05-08 14:39:24.188  5241  5321 I Unity   : com.kingsgroup.sdk.KGCommunityInternal:Awake()
+05-08 14:39:24.188  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.188  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.188  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.188  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.188  5241  5321 I Unity   :
+05-08 14:39:24.190  5241  5321 I Unity   : [KGHelpCenterInternal] OnApplicationAwake
+05-08 14:39:24.190  5241  5321 I Unity   : com.kingsgroup.sdk.KGHelpCenterInternal:Awake()
+05-08 14:39:24.190  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.190  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.190  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.190  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.190  5241  5321 I Unity   :
+05-08 14:39:24.193  5241  5321 I Unity   : [KGGuardInternal] OnApplicationAwake
+05-08 14:39:24.193  5241  5321 I Unity   : com.kingsgroup.sdk.KGGuardInternal:Awake()
+05-08 14:39:24.193  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.193  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.193  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.193  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.193  5241  5321 I Unity   :
+05-08 14:39:24.196  5241  5321 I Unity   : [KGSDK] read channelConfigString complete
+05-08 14:39:24.196  5241  5321 I Unity   : com.kingsgroup.sdk.KGSDK:.ctor()
+05-08 14:39:24.196  5241  5321 I Unity   : com.kingsgroup.sdk.KGSDK:GetInstance()
+05-08 14:39:24.196  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.196  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.196  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.196  5241  5321 I Unity   :
+05-08 14:39:24.290  5241  5321 I Unity   : [KGToolsInternal] OnApplicationAwake
+05-08 14:39:24.290  5241  5321 I Unity   : com.kingsgroup.sdk.KGToolsInternal:Awake()
+05-08 14:39:24.290  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:24.290  5241  5321 I Unity   : com.kingsgroup.sdk.KGToolsInternal:get_Internal()
+05-08 14:39:24.290  5241  5321 I Unity   : com.kingsgroup.sdk.KGTools:SetUpdateNativeDataHandler(String, Action`1)
+05-08 14:39:24.290  5241  5321 I Unity   : NexgenDragon.DistributionManager:Initialize(NexgenObject)
+05-08 14:39:24.290  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.290  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.290  5241  5321 I Unity   :
+05-08 14:39:24.379  5241  5321 I Unity   : [KGMarketUnion] init
+05-08 14:39:24.379  5241  5321 I Unity   : com.kingsgroup.sdk.KGMarketUnion:Init()
+05-08 14:39:24.379  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.379  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.379  5241  5321 I Unity   :
+05-08 14:39:24.380  5241  5321 I Unity   : [KGMarketUnionInternal] init
+05-08 14:39:24.380  5241  5321 I Unity   : com.kingsgroup.sdk.KGMarketUnionInternal:Init()
+05-08 14:39:24.380  5241  5321 I Unity   : NexgenDragon.GameFacade:Initialize(NexgenObject)
+05-08 14:39:24.380  5241  5321 I Unity   : GameWrapper:InitializeGameFacade()
+05-08 14:39:24.380  5241  5321 I Unity   :
+05-08 14:39:25.924  5241  5321 I Unity   : [pool]init cache capbility200
+05-08 14:39:25.924  5241  5321 I Unity   : PerformanceModule:OnRegister()
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.ModuleManager:RegisterModule(Type)
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.ModuleManager:RetrieveModule()
+05-08 14:39:25.924  5241  5321 I Unity   : MVCManager:OnGameBoot(IEvent)
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.ActionEvtList:StartTriggerEvt(IEvent)
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.EventManager:TriggerEvent(IEvent)
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:25.924  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:25.924  5241  5321 I Unity   :
+05-08 14:39:27.128  5241  5321 I Unity   : Firebase Analytics API Initializing
+05-08 14:39:27.128  5241  5321 I Unity   : analytics API Initialized
+05-08 14:39:27.832  5241  5321 I Unity   : SetConsent: 41 -> 53
+05-08 14:39:27.832  5241  5321 I Unity   : SetConsent: 33 -> 57
+05-08 14:39:27.832  5241  5321 I Unity   : SetConsent: 37 -> 49
+05-08 14:39:27.833  5241  5321 I Unity   : SetConsent: 41 -> 53
+05-08 14:39:27.857  5241  5321 I Unity   : [AppsFlyerScript] OnApplicationAwake
+05-08 14:39:27.857  5241  5321 I Unity   : com.kingsgroup.sdk.AppsFlyerScript:Awake()
+05-08 14:39:27.857  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:27.857  5241  5321 I Unity   : com.kingsgroup.sdk.KGAppsFlyerHelper:LoadScript(MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.857  5241  5321 I Unity   : com.kingsgroup.sdk.KGAppsFlyerHelper:InitAppsFlyerHelper(MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.857  5241  5321 I Unity   : com.kingsgroup.sdk.KGMarketWrapper:InitializeAppsFlyer(MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.857  5241  5321 I Unity   : NexgenDragon.DistributionManager:initSDKModules(JObject, MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.857  5241  5321 I Unity   : InitManifestState:InitSDK(JToken, Boolean)
+05-08 14:39:27.857  5241  5321 I Unity   : InitManifestState:OnCallManifestCallback(Boolean, BaseServiceResponse)
+05-08 14:39:27.857  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:27.857  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:27.857  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:27.857  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:27.857  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalR
+05-08 14:39:27.902  5241  5321 I Unity   : [KGAppsFlyerHelper|InitAppsFlyerHelper] isInitialized = True
+05-08 14:39:27.902  5241  5321 I Unity   : com.kingsgroup.sdk.KGAppsFlyerHelper:InitAppsFlyerHelper(MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.902  5241  5321 I Unity   : com.kingsgroup.sdk.KGMarketWrapper:InitializeAppsFlyer(MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.DistributionManager:initSDKModules(JObject, MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.902  5241  5321 I Unity   : InitManifestState:InitSDK(JToken, Boolean)
+05-08 14:39:27.902  5241  5321 I Unity   : InitManifestState:OnCallManifestCallback(Boolean, BaseServiceResponse)
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:27.902  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:27.902  5241  5321 I Unity   : NexgenDragon.Tic
+05-08 14:39:27.952  5241  5321 I Unity   : KGPayment|initPaymentModule: paymentAppId=9050105,paymentCallbackId=10044paymentServerUrl=https://ssd-payment.kingsgroupgames.com
+05-08 14:39:27.952  5241  5321 I Unity   : com.kingsgroup.sdk.KGPayment:initPaymentModule(String, String, String)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.DistributionManager:initSDKModules(JObject, MonoBehaviour, Action`1, Action`1)
+05-08 14:39:27.952  5241  5321 I Unity   : InitManifestState:InitSDK(JToken, Boolean)
+05-08 14:39:27.952  5241  5321 I Unity   : InitManifestState:OnCallManifestCallback(Boolean, BaseServiceResponse)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:27.952  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:27.952  5241  5321 I Unity   : NexgenDragon
+05-08 14:39:28.048  5241  5321 W Unity   : DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+05-08 14:39:28.048  5241  5321 W Unity   : NexgenDragon.SoundManager:InitSoundManager()
+05-08 14:39:28.048  5241  5321 W Unity   : PrepareAssetState:DoPrepareSound()
+05-08 14:39:28.048  5241  5321 W Unity   : PrepareAssetState:Enter()
+05-08 14:39:28.048  5241  5321 W Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:28.048  5241  5321 W Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:28.048  5241  5321 W Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:28.048  5241  5321 W Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:28.048  5241  5321 W Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:28.048  5241  5321 W Unity   :
+05-08 14:39:28.048  5241  5321 W Unity   : [ line -2107646248]
+05-08 14:39:28.048  5241  5321 W Unity   :
+05-08 14:39:28.080  5241  5321 I Unity   : WwiseUnity: Wwise(R) SDK Version 2023.1.14 Build 8770.
+05-08 14:39:28.080  5241  5321 I Unity   : AkSoundEngineInitialization:InitializeSoundEngine()
+05-08 14:39:28.080  5241  5321 I Unity   : AkInitializer:OnEnable()
+05-08 14:39:28.080  5241  5321 I Unity   : NexgenDragon.SoundManager:InitSoundManager()
+05-08 14:39:28.080  5241  5321 I Unity   : PrepareAssetState:DoPrepareSound()
+05-08 14:39:28.080  5241  5321 I Unity   : PrepareAssetState:Enter()
+05-08 14:39:28.080  5241  5321 I Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:28.080  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:28.080  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:28.080  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:28.080  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:28.080  5241  5321 I Unity   :
+05-08 14:39:28.086  5241  5321 I Unity   : WwiseUnity: Setting Plugin DLL path to: NULL
+05-08 14:39:28.086  5241  5321 I Unity   : AkCommonPlatformSettings:get_AkInitializationSettings()
+05-08 14:39:28.086  5241  5321 I Unity   : AkSoundEngineInitialization:InitializeSoundEngine()
+05-08 14:39:28.086  5241  5321 I Unity   : AkInitializer:OnEnable()
+05-08 14:39:28.086  5241  5321 I Unity   : NexgenDragon.SoundManager:InitSoundManager()
+05-08 14:39:28.086  5241  5321 I Unity   : PrepareAssetState:DoPrepareSound()
+05-08 14:39:28.086  5241  5321 I Unity   : PrepareAssetState:Enter()
+05-08 14:39:28.086  5241  5321 I Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:28.086  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:28.086  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:28.086  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:28.086  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:28.086  5241  5321 I Unity   :
+05-08 14:39:29.360  5241  5321 I Unity   : WwiseUnity: Sound engine initialized successfully.
+05-08 14:39:29.360  5241  5321 I Unity   : AkSoundEngineInitialization:InitializeSoundEngine()
+05-08 14:39:29.360  5241  5321 I Unity   : AkInitializer:OnEnable()
+05-08 14:39:29.360  5241  5321 I Unity   : NexgenDragon.SoundManager:InitSoundManager()
+05-08 14:39:29.360  5241  5321 I Unity   : PrepareAssetState:DoPrepareSound()
+05-08 14:39:29.360  5241  5321 I Unity   : PrepareAssetState:Enter()
+05-08 14:39:29.360  5241  5321 I Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:29.360  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:29.360  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:29.360  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:29.360  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:29.360  5241  5321 I Unity   :
+05-08 14:39:29.816  5241  5321 I Unity   : Load assets/patch/2.5.100_4a Success
+05-08 14:39:29.816  5241  5321 I Unity   : PrepareAssetState:LoadPatch(PatchType)
+05-08 14:39:29.816  5241  5321 I Unity   : PrepareAssetState:Enter()
+05-08 14:39:29.816  5241  5321 I Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:29.816  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:29.816  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:29.816  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:29.816  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:29.816  5241  5321 I Unity   :
+05-08 14:39:29.826  5241  5321 I Unity   : Load assets/patch/2.5.100_1b Success
+05-08 14:39:29.826  5241  5321 I Unity   : PrepareAssetState:LoadPatch(PatchType)
+05-08 14:39:29.826  5241  5321 I Unity   : PrepareAssetState:Enter()
+05-08 14:39:29.826  5241  5321 I Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:29.826  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:29.826  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:29.826  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:29.826  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:29.826  5241  5321 I Unity   :
+05-08 14:39:29.885  5241  5321 I Unity   : Using Facebook Unity SDK v18.0.0 with FBAndroidSDK/18.0.3
+05-08 14:39:29.885  5241  5321 I Unity   : Facebook.Unity.CompiledFacebookLoader:Start()
+05-08 14:39:29.885  5241  5321 I Unity   :
+05-08 14:39:29.929  5241  5321 I Unity   : [AppsFlyerScript] onConversionDataSuccess:{"redirect_response_data":null,"adgroup_id":null,"engmnt_source":null,"is_incentivized":"false","retargeting_conversion_type":"none","orig_cost":"4.5","af_cost_currency":"USD","is_first_launch":false,"af_click_lookback":"7d","CB_preload_equal_priority_enabled":false,"af_cpi":null,"iscache":true,"click_time":"2026-05-05 08:08:00.927","is_branded_link":null,"adset":null,"match_type":"gp_referrer","campaign_id":"18225","af_pmod_lookback_window":"30m","install_time":"2026-05-05 08:14:18.474","af_c_id":"18225","agency":null,"media_source":"bluestacks_int","advertising_id":"a4725c4a-019f-4b6d-871d-033e3202b344","clickid":"bluestacks.hasoffers_102507a67dafe0ce4a0bb699f65124_18225","af_siteid":"1","af_status":"Non-organic","ots":"false","advertiserId":"a4725c4a-019f-4b6d-871d-033e3202b344","af_sub1":null,"cost_cents_USD":"450","af_sub5":null,"af_sub4":null,"af_sub3":null,"af_sub2":null,"adset_id":null,"esp_name":null,"af_cost_value":"4.5","http_referrer":null,"af_cost_model"
+05-08 14:39:31.568  5241  5321 W Unity   : AccountState login success fpId = 8612497252642
+05-08 14:39:31.568  5241  5321 W Unity   : AccountState:HandleLoginSuccess(KGUser)
+05-08 14:39:31.568  5241  5321 W Unity   : AccountState:<NormalChannelLoginProcess>b__9_0(Int32, String, KGUser)
+05-08 14:39:31.568  5241  5321 W Unity   : NexgenDragon.AccountManager:kgLoginCallback(Int32, String, KGUser)
+05-08 14:39:31.568  5241  5321 W Unity   : com.kingsgroup.sdk.<>c__DisplayClass25_0:<DeviceLogin>b__0(Boolean, KGHttpResponseData)
+05-08 14:39:31.568  5241  5321 W Unity   : NexgenDragon.BestHttpApi:OnResponse(HTTPRequest, HTTPResponse)
+05-08 14:39:31.568  5241  5321 W Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:HandleRequestStateChange(RequestEventInfo)
+05-08 14:39:31.568  5241  5321 W Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:ProcessQueue()
+05-08 14:39:31.568  5241  5321 W Unity   : Best.HTTP.Shared.HTTPManager:OnUpdate()
+05-08 14:39:31.568  5241  5321 W Unity   : Best.HTTP.Shared.HTTPUpdateDelegator:CallOnUpdate()
+05-08 14:39:31.568  5241  5321 W Unity   :
+05-08 14:39:31.568  5241  5321 I Unity   : [KGMarketUnion] traceEvent:onLogin
+05-08 14:39:31.568  5241  5321 I Unity   : com.kingsgroup.sdk.KGMarketUnion:TraceEvent(String, String)
+05-08 14:39:31.568  5241  5321 I Unity   : AccountState:HandleLoginSuccess(KGUser)
+05-08 14:39:31.568  5241  5321 I Unity   : AccountState:<NormalChannelLoginProcess>b__9_0(Int32, String, KGUser)
+05-08 14:39:31.568  5241  5321 I Unity   : NexgenDragon.AccountManager:kgLoginCallback(Int32, String, KGUser)
+05-08 14:39:31.568  5241  5321 I Unity   : com.kingsgroup.sdk.<>c__DisplayClass25_0:<DeviceLogin>b__0(Boolean, KGHttpResponseData)
+05-08 14:39:31.568  5241  5321 I Unity   : NexgenDragon.BestHttpApi:OnResponse(HTTPRequest, HTTPResponse)
+05-08 14:39:31.568  5241  5321 I Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:HandleRequestStateChange(RequestEventInfo)
+05-08 14:39:31.568  5241  5321 I Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:ProcessQueue()
+05-08 14:39:31.568  5241  5321 I Unity   : Best.HTTP.Shared.HTTPManager:OnUpdate()
+05-08 14:39:31.568  5241  5321 I Unity   : Best.HTTP.Shared.HTTPUpdateDelegator:CallOnUpdate()
+05-08 14:39:31.568  5241  5321 I Unity   :
+05-08 14:39:31.569  5241  5321 I Unity   : [KGMarketUnionInternal] traceEvent: event=onLogin, params=
+05-08 14:39:31.569  5241  5321 I Unity   : com.kingsgroup.sdk.KGMarketUnionInternal:TraceEvent(String, String)
+05-08 14:39:31.569  5241  5321 I Unity   : AccountState:HandleLoginSuccess(KGUser)
+05-08 14:39:31.569  5241  5321 I Unity   : AccountState:<NormalChannelLoginProcess>b__9_0(Int32, String, KGUser)
+05-08 14:39:31.569  5241  5321 I Unity   : NexgenDragon.AccountManager:kgLoginCallback(Int32, String, KGUser)
+05-08 14:39:31.569  5241  5321 I Unity   : com.kingsgroup.sdk.<>c__DisplayClass25_0:<DeviceLogin>b__0(Boolean, KGHttpResponseData)
+05-08 14:39:31.569  5241  5321 I Unity   : NexgenDragon.BestHttpApi:OnResponse(HTTPRequest, HTTPResponse)
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:HandleRequestStateChange(RequestEventInfo)
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:ProcessQueue()
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Shared.HTTPManager:OnUpdate()
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Shared.HTTPUpdateDelegator:CallOnUpdate()
+05-08 14:39:31.569  5241  5321 I Unity   :
+05-08 14:39:31.569  5241  5321 I Unity   : AppsFlyer_Unity_v6.17.72 passportUserLoggedIn called with onPassportUserLoggedIn fpid = 8612497252642
+05-08 14:39:31.569  5241  5321 I Unity   : com.kingsgroup.sdk.KGAppsFlyerHelper:passportUserLoggedIn(String, Int64)
+05-08 14:39:31.569  5241  5321 I Unity   : AccountState:HandleLoginSuccess(KGUser)
+05-08 14:39:31.569  5241  5321 I Unity   : AccountState:<NormalChannelLoginProcess>b__9_0(Int32, String, KGUser)
+05-08 14:39:31.569  5241  5321 I Unity   : NexgenDragon.AccountManager:kgLoginCallback(Int32, String, KGUser)
+05-08 14:39:31.569  5241  5321 I Unity   : com.kingsgroup.sdk.<>c__DisplayClass25_0:<DeviceLogin>b__0(Boolean, KGHttpResponseData)
+05-08 14:39:31.569  5241  5321 I Unity   : NexgenDragon.BestHttpApi:OnResponse(HTTPRequest, HTTPResponse)
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:HandleRequestStateChange(RequestEventInfo)
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Hosts.Connections.RequestEventHelper:ProcessQueue()
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Shared.HTTPManager:OnUpdate()
+05-08 14:39:31.569  5241  5321 I Unity   : Best.HTTP.Shared.HTTPUpdateDelegator:CallOnUpdate()
+05-08 14:39:31.569  5241  5321 I Unity   :
+05-08 14:39:33.448  5241  5321 I Unity   : [KGToolsInternal] nativeKGToolsBiCallback: {"event":"privacy_protocol_europe","privacy_action":"check_version_start","privacy_version":"1773127833","privacy_track_key":"ec81782c-dce5-4cb9-be5e-c6b8e27e9cfb","privacy_lang":"zh-TW"}
+05-08 14:39:33.448  5241  5321 I Unity   : com.kingsgroup.sdk.KGToolsInternal:nativeKGToolsBiCallback(String)
+05-08 14:39:33.448  5241  5321 I Unity   :
+05-08 14:39:33.448  5241  5321 I Unity   : KGLog.ReportEvent -> privacy_protocol_europe | custom | System.Collections.Generic.Dictionary`2[System.String,System.Object]
+05-08 14:39:33.448  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:ReportEvent(String, String, Dictionary`2)
+05-08 14:39:33.448  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:HandleSdkNativeBi(String)
+05-08 14:39:33.448  5241  5321 I Unity   :
+05-08 14:39:34.792  5241  5321 I Unity   : [KGToolsInternal] nativeKGToolsBiCallback: {"event":"privacy_protocol_europe","privacy_action":"check_version_result","privacy_version":"1773127833","privacy_track_key":"ec81782c-dce5-4cb9-be5e-c6b8e27e9cfb","privacy_lang":"zh-TW","privacy_code":0,"privacy_reason":"success"}
+05-08 14:39:34.792  5241  5321 I Unity   : com.kingsgroup.sdk.KGToolsInternal:nativeKGToolsBiCallback(String)
+05-08 14:39:34.792  5241  5321 I Unity   :
+05-08 14:39:34.792  5241  5321 I Unity   : KGLog.ReportEvent -> privacy_protocol_europe | custom | System.Collections.Generic.Dictionary`2[System.String,System.Object]
+05-08 14:39:34.792  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:ReportEvent(String, String, Dictionary`2)
+05-08 14:39:34.792  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:HandleSdkNativeBi(String)
+05-08 14:39:34.792  5241  5321 I Unity   :
+05-08 14:39:34.796  5241  5321 I Unity   : [KGToolsInternal] nativeKGToolsBiCallback: {"event":"privacy_protocol_europe","privacy_action":"pop_show","privacy_version":"1773127833","privacy_track_key":"ec81782c-dce5-4cb9-be5e-c6b8e27e9cfb","privacy_pop_style":0,"privacy_pop_type":"pass","privacy_area":"global","privacy_lang":"zh-TW"}
+05-08 14:39:34.796  5241  5321 I Unity   : com.kingsgroup.sdk.KGToolsInternal:nativeKGToolsBiCallback(String)
+05-08 14:39:34.796  5241  5321 I Unity   :
+05-08 14:39:34.797  5241  5321 I Unity   : KGLog.ReportEvent -> privacy_protocol_europe | custom | System.Collections.Generic.Dictionary`2[System.String,System.Object]
+05-08 14:39:34.797  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:ReportEvent(String, String, Dictionary`2)
+05-08 14:39:34.797  5241  5321 I Unity   : com.kingsgroup.sdk.KGLog:HandleSdkNativeBi(String)
+05-08 14:39:34.797  5241  5321 I Unity   :
+05-08 14:39:34.800  5241  5321 I Unity   : nativePrivacyCallback1:{"code":1,"type":"action","message":"already allowed!"}
+05-08 14:39:34.800  5241  5321 I Unity   : com.kingsgroup.sdk.KGPrivacyInternal:nativePrivacyCallback(String)
+05-08 14:39:34.800  5241  5321 I Unity   :
+05-08 14:39:34.801  5241  5321 I Unity   : nativePrivacyCallback2:{"code":1,"type":"action","message":"already allowed!"}
+05-08 14:39:34.801  5241  5321 I Unity   : com.kingsgroup.sdk.KGPrivacyInternal:nativePrivacyCallback(String)
+05-08 14:39:34.801  5241  5321 I Unity   :
+05-08 14:39:36.676  5241  5321 I Unity   : KGPayment|initAllIAPProducts==>["com.funplus.ts.global.recharge49","com.funplus.ts.global.recharge99","com.funplus.ts.global.recharge199","com.funplus.ts.global.recharge299","com.funplus.ts.global.recharge399","com.funplus.ts.global.recharge499","com.funplus.ts.global.recharge699","com.funplus.ts.global.recharge999","com.funplus.ts.global.recharge1499","com.funplus.ts.global.recharge1999","com.funplus.ts.global.recharge2999","com.funplus.ts.global.recharge3499","com.funplus.ts.global.recharge3699","com.funplus.ts.global.recharge4999","com.funplus.ts.global.recharge7499","com.funplus.ts.global.recharge9999","com.funplus.ts.global.recharge19999","com.funplus.ts.global.recharge29999","com.funplus.ts.global.recharge34999","com.funplus.ts.global.nonrecharge49","com.funplus.ts.global.nonrecharge99","com.funplus.ts.global.nonrecharge199","com.funplus.ts.global.nonrecharge299","com.funplus.ts.global.nonrecharge399","com.funplus.ts.global.nonrecharge499","com.funplus.ts.global.nonrecharge699","com.funplus.ts.global.n
+05-08 14:39:36.751  5241  5321 I Unity   : [KGCommunityInternal] CleanAllCommunityWindow
+05-08 14:39:36.751  5241  5321 I Unity   : com.kingsgroup.sdk.KGCommunityInternal:CleanAllCommunityWindow()
+05-08 14:39:36.751  5241  5321 I Unity   : CMSV2Module:OnReconnect(IEvent)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.ActionEvtList:StartTriggerEvt(IEvent)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.EventManager:TriggerEvent(IEvent)
+05-08 14:39:36.751  5241  5321 I Unity   : PushServerModule:OnRtmConnected()
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.StateMachine:ChangeState(Type)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:36.751  5241  5321 I Unity   : RtmStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:36.751  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:38.279  5241  5321 I Unity   : [KGCommunityInternal] InitCommunity
+05-08 14:39:38.279  5241  5321 I Unity   : com.kingsgroup.sdk.KGCommunityInternal:InitCommunity(String, Action`1)
+05-08 14:39:38.279  5241  5321 I Unity   : CMSV2Module:Initialize()
+05-08 14:39:38.279  5241  5321 I Unity   : CallInitModule:OnInitResponse(Boolean, BaseServiceResponse)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.279  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:38.279  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:38.279  5241  5321 I Unity   :
+05-08 14:39:38.321  5241  5321 I Unity   : [FPPopupUniversalInternal] init: {"baseUrl":"https://popups-api.funplus.com","appId":"8612","channel":"ts_googleplay_global"}
+05-08 14:39:38.321  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversal:Init(String, Action`1)
+05-08 14:39:38.321  5241  5321 I Unity   : CallInitModule:OnInitResponse(Boolean, BaseServiceResponse)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.321  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:38.321  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:38.321  5241  5321 I Unity   :
+05-08 14:39:38.336  5241  5321 I Unity   : [FPPopupUniversalInternal] OnApplicationAwake
+05-08 14:39:38.336  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversalInternal:Awake()
+05-08 14:39:38.336  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:38.336  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversalInternal:get_Instance()
+05-08 14:39:38.336  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversal:Init(String, Action`1)
+05-08 14:39:38.336  5241  5321 I Unity   : CallInitModule:OnInitResponse(Boolean, BaseServiceResponse)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.336  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:38.336  5241  5321 I Unity   : NexgenDragon.
+05-08 14:39:38.337  5241  5321 I Unity   : [FPPopupUniversalInternal] gameObjectName = FPPopupUniversalGameObject
+05-08 14:39:38.337  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:39:38.337  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversalInternal:get_Instance()
+05-08 14:39:38.337  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversal:Init(String, Action`1)
+05-08 14:39:38.337  5241  5321 I Unity   : CallInitModule:OnInitResponse(Boolean, BaseServiceResponse)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.337  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:38.337  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:38.337  5241  5321 I Unity   :
+05-08 14:39:38.339  5241  5321 I Unity   : [FPPopupUniversalInternal] init: {"baseUrl":"https://popups-api.funplus.com","appId":"8612","channel":"ts_googleplay_global"}
+05-08 14:39:38.339  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversalInternal:Init(String, Action`1)
+05-08 14:39:38.339  5241  5321 I Unity   : CallInitModule:OnInitResponse(Boolean, BaseServiceResponse)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.339  5241  5321 I Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:TickResponseQueue()
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.HttpLoaderProcessor:Tick(Single)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:38.339  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:38.339  5241  5321 I Unity   :
+05-08 14:39:38.412  5241  5321 E Unity   : 同一个位置存在相同的情报id_state_coordination
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.LoggerHandler:Log(String, Object, LogSeverity, Object, Object[])
+05-08 14:39:38.412  5241  5321 E Unity   : IntelList:RefreshIntelDetailDic()
+05-08 14:39:38.412  5241  5321 E Unity   : IntelList:UpdateIntelList()
+05-08 14:39:38.412  5241  5321 E Unity   : UserStatsInfoDatabaseCell:get_IntelV2()
+05-08 14:39:38.412  5241  5321 E Unity   : QuickSearchModule:OnIntelDataUpdate(UserStatsInfoDatabaseCell, String)
+05-08 14:39:38.412  5241  5321 E Unity   : QuickSearchModule:OnRegister()
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.ModuleManager:RegisterModule(Type)
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.ModuleManager:RetrieveModule()
+05-08 14:39:38.412  5241  5321 E Unity   : ModuleRefer:get_QuickSearchModule()
+05-08 14:39:38.412  5241  5321 E Unity   : CallInitModule:OnInitResponse(Boolean, BaseServiceResponse)
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.ServiceManager:DispatchCallback(String, Boolean, BaseServiceResponse)
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.<>c__DisplayClass10_0:<ProcessHttpResponse>b__0()
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.DatabaseManager:ReceiveDataBytes(Object, Int64, Byte[], Action)
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.ResponseProcessor:ProcessHttpResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.412  5241  5321 E Unity   : LoaderStrategy:ProcessResponse(BaseServiceParameter, BaseProtocol, Int64, InternalResponseCallback, Object)
+05-08 14:39:38.412  5241  5321 E Unity   : NexgenDragon.HttpLoaderProcessor:Tic
+05-08 14:39:41.301  5241  5321 I Unity   : [KGCommunityInternal] sdk callback
+05-08 14:39:41.301  5241  5321 I Unity   : com.kingsgroup.sdk.KGCommunityInternal:nativeKGCommunityCallback(String)
+05-08 14:39:41.301  5241  5321 I Unity   :
+05-08 14:39:41.307  5241  5321 I Unity   : [FPSDKPopupUniversalInternal|nativeCallback]==> {"code":0,"type":"init","message":"success","data":{"eventIDs":[]}}
+05-08 14:39:41.307  5241  5321 I Unity   : FunPlus.SDK.PopupUniversal.FPPopupUniversalInternal:FPSDKPopupUniversalCallback(String)
+05-08 14:39:41.307  5241  5321 I Unity   :
+05-08 14:39:41.308  5241  5321 I Unity   : [KGCommunityInternal] sdk callback
+05-08 14:39:41.308  5241  5321 I Unity   : com.kingsgroup.sdk.KGCommunityInternal:nativeKGCommunityCallback(String)
+05-08 14:39:41.308  5241  5321 I Unity   :
+05-08 14:39:42.127  5241  5321 I Unity   : Warm up shader : 266 ms
+05-08 14:39:42.127  5241  5321 I Unity   : <>c__DisplayClass11_1:<WarmUpShader>b__0()
+05-08 14:39:42.127  5241  5321 I Unity   : NexgenDragon.<_ExecuteAfterFrame>d__128:MoveNext()
+05-08 14:39:42.127  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:39:42.127  5241  5321 I Unity   : WarmupState:WarmUpShader()
+05-08 14:39:42.127  5241  5321 I Unity   : WarmupState:Enter()
+05-08 14:39:42.127  5241  5321 I Unity   : PreloadingModule:Tick(Single)
+05-08 14:39:42.127  5241  5321 I Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:39:42.127  5241  5321 I Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:39:42.127  5241  5321 I Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:39:42.127  5241  5321 I Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:39:42.127  5241  5321 I Unity   :
+05-08 14:39:43.075  5241  5321 I Unity   : Warm up shader : 915 ms
+05-08 14:39:43.075  5241  5321 I Unity   : <>c__DisplayClass11_1:<WarmUpShader>b__0()
+05-08 14:39:43.075  5241  5321 I Unity   : NexgenDragon.<_ExecuteAfterFrame>d__128:MoveNext()
+05-08 14:39:43.075  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:39:43.075  5241  5321 I Unity   :
+05-08 14:39:43.733  5241  5321 I Unity   : Warm up shader : 608 ms
+05-08 14:39:43.733  5241  5321 I Unity   : <>c__DisplayClass11_1:<WarmUpShader>b__0()
+05-08 14:39:43.733  5241  5321 I Unity   : NexgenDragon.<_ExecuteAfterFrame>d__128:MoveNext()
+05-08 14:39:43.733  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:39:43.733  5241  5321 I Unity   :
+05-08 14:39:43.750  5241  5321 I Unity   : Warm up shader : 0 ms
+05-08 14:39:43.750  5241  5321 I Unity   : <>c__DisplayClass11_1:<WarmUpShader>b__0()
+05-08 14:39:43.750  5241  5321 I Unity   : NexgenDragon.<_ExecuteAfterFrame>d__128:MoveNext()
+05-08 14:39:43.750  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:39:43.750  5241  5321 I Unity   :
+05-08 14:40:00.888  5241  5321 E Unity   : [14:40:00]<color="#CC3300">[RTM]</color> Rtm push over time[async]: send:1778222394965 current:1778222400944 delay:5979
+05-08 14:40:00.888  5241  5321 E Unity   : NexgenDragon.LoggerHandler:Log(String, Object, LogSeverity, Object, Object[])
+05-08 14:40:00.888  5241  5321 E Unity   : NexgenDragon.ResponseProcessor:HandleResponseData(Dictionary`2, Byte[], Boolean, Int64)
+05-08 14:40:00.888  5241  5321 E Unity   : TaskManager:Tick(Single)
+05-08 14:40:00.888  5241  5321 E Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:40:00.888  5241  5321 E Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:40:00.888  5241  5321 E Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:40:00.888  5241  5321 E Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:40:00.888  5241  5321 E Unity   :
+05-08 14:40:03.479  5241  5321 W Unity   : Failed to create agent because there is no valid NavMesh
+05-08 14:40:03.479  5241  5321 W Unity   : XLua.CSObjectWrap.UnityEngineGameObjectWrap:_m_AddComponent(IntPtr)
+05-08 14:40:03.479  5241  5321 W Unity   :
+05-08 14:40:03.479  5241  5321 W Unity   : [ line -2107650312]
+05-08 14:40:03.479  5241  5321 W Unity   :
+05-08 14:40:04.770  5241  5321 W Unity   : Failed to create agent because there is no valid NavMesh
+05-08 14:40:04.770  5241  5321 W Unity   : XLua.CSObjectWrap.UnityEngineBehaviourWrap:_s_set_enabled(IntPtr)
+05-08 14:40:04.770  5241  5321 W Unity   :
+05-08 14:40:04.770  5241  5321 W Unity   : [ line -2107645288]
+05-08 14:40:04.770  5241  5321 W Unity   :
+05-08 14:40:05.588  5241  5321 E Unity   : Trying to remove Image (UnityEngine.UI.Image) from rebuild list while we are already inside a rebuild loop. This is not supported.
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:DisableCanvasElementForRebuild(ICanvasElement)
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.UI.Graphic:OnDisable()
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnDisable()
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.UI.Image:OnDisable()
+05-08 14:40:05.588  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.UI.FontUpdateTracker:RebuildForFont(Font)
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.Font:InvokeTextureRebuilt_Internal(Font)
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.TextGenerator:Populate_Internal(String, Font, Color, Int32, Single, Single, FontStyle, Boolean, Boolean, Int32, Int32, Int32, Int32, Boolean, TextAnchor, Single, Single, Single, Single, Boolean, Boolean, UInt32&)
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.TextGenerator:Populate_Internal(String, Font, Color, Int32, Single, Single, FontStyle, Boolean, Boolean, Int32, Int32, VerticalWrapMode, HorizontalWrapMode, Boolean, TextAnchor, Vector2, Vector2, Boolean, Boolean, TextGenerationError&)
+05-08 14:40:05.588  5241  5321 E Unity   : UnityEngine.TextGenerator:PopulateAl
+05-08 14:40:05.596  5241  5321 E Unity   : Trying to remove Image (UnityEngine.UI.Image) from rebuild list while we are already inside a rebuild loop. This is not supported.
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:DisableCanvasElementForRebuild(ICanvasElement)
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.UI.Graphic:OnDisable()
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnDisable()
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.UI.Image:OnDisable()
+05-08 14:40:05.596  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.UI.FontUpdateTracker:RebuildForFont(Font)
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.Font:InvokeTextureRebuilt_Internal(Font)
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.TextGenerator:Populate_Internal(String, Font, Color, Int32, Single, Single, FontStyle, Boolean, Boolean, Int32, Int32, Int32, Int32, Boolean, TextAnchor, Single, Single, Single, Single, Boolean, Boolean, UInt32&)
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.TextGenerator:Populate_Internal(String, Font, Color, Int32, Single, Single, FontStyle, Boolean, Boolean, Int32, Int32, VerticalWrapMode, HorizontalWrapMode, Boolean, TextAnchor, Vector2, Vector2, Boolean, Boolean, TextGenerationError&)
+05-08 14:40:05.596  5241  5321 E Unity   : UnityEngine.TextGenerator:PopulateAl
+05-08 14:40:05.611  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.611  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.611  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.611  5241  5321 E Unity   :
+05-08 14:40:05.612  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetVerticesDirty()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.612  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.612  5241  5321 E Unity   :
+05-08 14:40:05.612  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.612  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.612  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.612  5241  5321 E Unity   :
+05-08 14:40:05.613  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.613  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.613  5241  5321 E Unity   :
+05-08 14:40:05.613  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetVerticesDirty()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.613  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.613  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.613  5241  5321 E Unity   :
+05-08 14:40:05.614  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.614  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.614  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.614  5241  5321 E Unity   :
+05-08 14:40:05.616  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.616  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.616  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.616  5241  5321 E Unity   :
+05-08 14:40:05.617  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetVerticesDirty()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.617  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.617  5241  5321 E Unity   :
+05-08 14:40:05.617  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.617  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.617  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.617  5241  5321 E Unity   :
+05-08 14:40:05.618  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.618  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.618  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.618  5241  5321 E Unity   :
+05-08 14:40:05.619  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetVerticesDirty()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetAllDirty()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.619  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.619  5241  5321 E Unity   :
+05-08 14:40:05.619  5241  5321 E Unity   : Trying to add Image (UnityEngine.UI.Image) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement)
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:SetMaterialDirty()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.MaskableGraphic:OnEnable()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Image:OnEnable()
+05-08 14:40:05.619  5241  5321 E Unity   : RichText:UpdateQuadImages(VertexHelper)
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:DoMeshGeneration()
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.Graphic:Rebuild(CanvasUpdate)
+05-08 14:40:05.619  5241  5321 E Unity   : UnityEngine.UI.CanvasUpdateRegistry:PerformUpdate()
+05-08 14:40:05.619  5241  5321 E Unity   :
+05-08 14:40:07.516  5241  5321 W Unity   : Failed to create agent because it is not close enough to the NavMesh
+05-08 14:40:07.516  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshDataTransformedInternal(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.516  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshData(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.516  5241  5321 W Unity   : NavMeshPrefabInstance:AddInstance()
+05-08 14:40:07.516  5241  5321 W Unity   : NavMeshPrefabInstance:OnEnable()
+05-08 14:40:07.516  5241  5321 W Unity   : UnityEngine.Object:Instantiate(T)
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Instantiate()
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Allocate(Boolean)
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.GameObjectPool:InternalSpawnGameObject(GameObjectCacheInfo, Transform, Boolean)
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.GameObjectPool:ProcessSingleRequest()
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.GameObjectPool:Tick(Single)
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:40:07.516  5241  5321 W Unity   : NexgenDragon.GameFacade:LateUpdateTick(Single)
+05-08 14:40:07.516  5241  5321 W Unity   :
+05-08 14:40:07.516  5241  5321 W Unity   : [ line -2107646536]
+05-08 14:40:07.516  5241  5321 W Unity   :
+05-08 14:40:07.534  5241  5321 W Unity   : Failed to create agent because it is not close enough to the NavMesh
+05-08 14:40:07.534  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshDataTransformedInternal(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.534  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshData(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.534  5241  5321 W Unity   : NavMeshPrefabInstance:AddInstance()
+05-08 14:40:07.534  5241  5321 W Unity   : NavMeshPrefabInstance:OnEnable()
+05-08 14:40:07.534  5241  5321 W Unity   : UnityEngine.Object:Instantiate(T)
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Instantiate()
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Allocate(Boolean)
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.GameObjectPool:InternalSpawnGameObject(GameObjectCacheInfo, Transform, Boolean)
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.GameObjectPool:ProcessSingleRequest()
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.GameObjectPool:Tick(Single)
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:40:07.534  5241  5321 W Unity   : NexgenDragon.GameFacade:LateUpdateTick(Single)
+05-08 14:40:07.534  5241  5321 W Unity   :
+05-08 14:40:07.534  5241  5321 W Unity   : [ line -2107646536]
+05-08 14:40:07.534  5241  5321 W Unity   :
+05-08 14:40:07.535  5241  5321 W Unity   : Failed to create agent because it is not close enough to the NavMesh
+05-08 14:40:07.535  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshDataTransformedInternal(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.535  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshData(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.535  5241  5321 W Unity   : NavMeshPrefabInstance:AddInstance()
+05-08 14:40:07.535  5241  5321 W Unity   : NavMeshPrefabInstance:OnEnable()
+05-08 14:40:07.535  5241  5321 W Unity   : UnityEngine.Object:Instantiate(T)
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Instantiate()
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Allocate(Boolean)
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.GameObjectPool:InternalSpawnGameObject(GameObjectCacheInfo, Transform, Boolean)
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.GameObjectPool:ProcessSingleRequest()
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.GameObjectPool:Tick(Single)
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:40:07.535  5241  5321 W Unity   : NexgenDragon.GameFacade:LateUpdateTick(Single)
+05-08 14:40:07.535  5241  5321 W Unity   :
+05-08 14:40:07.535  5241  5321 W Unity   : [ line -2107646536]
+05-08 14:40:07.535  5241  5321 W Unity   :
+05-08 14:40:07.539  5241  5321 W Unity   : Failed to create agent because it is not close enough to the NavMesh
+05-08 14:40:07.539  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshDataTransformedInternal(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.539  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshData(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.539  5241  5321 W Unity   : NavMeshPrefabInstance:AddInstance()
+05-08 14:40:07.539  5241  5321 W Unity   : NavMeshPrefabInstance:OnEnable()
+05-08 14:40:07.539  5241  5321 W Unity   : UnityEngine.Object:Instantiate(T)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Instantiate()
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Allocate(Boolean)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectPool:InternalSpawnGameObject(GameObjectCacheInfo, Transform, Boolean)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectPool:ProcessSingleRequest()
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectPool:Tick(Single)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameFacade:LateUpdateTick(Single)
+05-08 14:40:07.539  5241  5321 W Unity   :
+05-08 14:40:07.539  5241  5321 W Unity   : [ line -2107646536]
+05-08 14:40:07.539  5241  5321 W Unity   :
+05-08 14:40:07.539  5241  5321 W Unity   : Failed to create agent because it is not close enough to the NavMesh
+05-08 14:40:07.539  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshDataTransformedInternal(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.539  5241  5321 W Unity   : UnityEngine.AI.NavMesh:AddNavMeshData(NavMeshData, Vector3, Quaternion)
+05-08 14:40:07.539  5241  5321 W Unity   : NavMeshPrefabInstance:AddInstance()
+05-08 14:40:07.539  5241  5321 W Unity   : NavMeshPrefabInstance:OnEnable()
+05-08 14:40:07.539  5241  5321 W Unity   : UnityEngine.Object:Instantiate(T)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Instantiate()
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectCacheInfo:Allocate(Boolean)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectPool:InternalSpawnGameObject(GameObjectCacheInfo, Transform, Boolean)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectPool:ProcessSingleRequest()
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameObjectPool:Tick(Single)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.TickerList:UpdateTickers(Single)
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.TickerList:Tick()
+05-08 14:40:07.539  5241  5321 W Unity   : NexgenDragon.GameFacade:LateUpdateTick(Single)
+05-08 14:40:07.539  5241  5321 W Unity   :
+05-08 14:40:07.539  5241  5321 W Unity   : [ line -2107646376]
+05-08 14:40:07.539  5241  5321 W Unity   :

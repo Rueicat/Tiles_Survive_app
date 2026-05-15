@@ -1,0 +1,16 @@
+05-08 15:21:26.518  5241  5321 I Unity   : [FPVIPEntryPopup] close
+05-08 15:21:26.518  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopup:Close()
+05-08 15:21:26.518  5241  5321 I Unity   : ClearState:Enter()
+05-08 15:21:26.518  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 15:21:26.518  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 15:21:26.518  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 15:21:26.518  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 15:21:26.518  5241  5321 I Unity   :
+05-08 15:21:26.519  5241  5321 I Unity   : [FPVIPEntryPopupInternal] close
+05-08 15:21:26.519  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:Close()
+05-08 15:21:26.519  5241  5321 I Unity   : ClearState:Enter()
+05-08 15:21:26.519  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 15:21:26.519  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 15:21:26.519  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 15:21:26.519  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 15:21:26.519  5241  5321 I Unity   :

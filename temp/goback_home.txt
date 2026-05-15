@@ -1,0 +1,30 @@
+05-08 15:17:41.705  5241  5321 I Unity   : [FPVIPEntryPopup] close
+05-08 15:17:41.705  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopup:Close()
+05-08 15:17:41.705  5241  5321 I Unity   : ClearState:Enter()
+05-08 15:17:41.705  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 15:17:41.705  5241  5321 I Unity   : <>c__DisplayClass35_0:<GotoMyCity>b__1()
+05-08 15:17:41.705  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 15:17:41.705  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 15:17:41.705  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 15:17:41.705  5241  5321 I Unity   :
+05-08 15:17:41.707  5241  5321 I Unity   : [FPVIPEntryPopupInternal] close
+05-08 15:17:41.707  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:Close()
+05-08 15:17:41.707  5241  5321 I Unity   : ClearState:Enter()
+05-08 15:17:41.707  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 15:17:41.707  5241  5321 I Unity   : <>c__DisplayClass35_0:<GotoMyCity>b__1()
+05-08 15:17:41.707  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 15:17:41.707  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 15:17:41.707  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 15:17:41.707  5241  5321 I Unity   :
+05-08 15:17:42.218  5241  5321 W Unity   : Failed to create agent because there is no valid NavMesh
+05-08 15:17:42.218  5241  5321 W Unity   : CityEnableState:Enter()
+05-08 15:17:42.218  5241  5321 W Unity   : NexgenDragon.StateMachine:ChangeState(Type)
+05-08 15:17:42.218  5241  5321 W Unity   : CityScene:EnterScene(Object)
+05-08 15:17:42.218  5241  5321 W Unity   : NexgenDragon.SceneManager:EnterScene(String, Object)
+05-08 15:17:42.218  5241  5321 W Unity   : CityState:Enter()
+05-08 15:17:42.218  5241  5321 W Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 15:17:42.218  5241  5321 W Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 15:17:42.218  5241  5321 W Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 15:17:42.218  5241  5321 W Unity   :
+05-08 15:17:42.218  5241  5321 W Unity   : [ line -2107644712]
+05-08 15:17:42.218  5241  5321 W Unity   :

@@ -64,6 +64,7 @@ def go_to_wild(device: str) -> str:
     else:
         return "Tapped town icon but not outside the wild, please check it"
     
+def search_in_wild() -> bool:
 
 
 

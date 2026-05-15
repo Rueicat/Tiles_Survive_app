@@ -1,0 +1,103 @@
+05-08 14:40:07.539  5241  5321 W Unity   : [ line -2107646376]
+05-08 14:40:07.539  5241  5321 W Unity   :
+05-08 14:50:45.562  5241  5321 I Unity   : [FPVIPEntryPopup] close
+05-08 14:50:45.562  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopup:Close()
+05-08 14:50:45.562  5241  5321 I Unity   : ClearState:Enter()
+05-08 14:50:45.562  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:45.562  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 14:50:45.562  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 14:50:45.562  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:50:45.562  5241  5321 I Unity   :
+05-08 14:50:45.568  5241  5321 I Unity   : [FPVIPEntryPopupInternal] OnApplicationAwake
+05-08 14:50:45.568  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:Awake()
+05-08 14:50:45.568  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:50:45.568  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:get_Instance()
+05-08 14:50:45.568  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopup:Close()
+05-08 14:50:45.568  5241  5321 I Unity   : ClearState:Enter()
+05-08 14:50:45.568  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:45.568  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 14:50:45.568  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 14:50:45.568  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:50:45.568  5241  5321 I Unity   :
+05-08 14:50:45.577  5241  5321 W Unity   : [FPVIPEntryPopupAndroid] not found Android FPVipPopupBridge
+05-08 14:50:45.577  5241  5321 W Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:Awake()
+05-08 14:50:45.577  5241  5321 W Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:50:45.577  5241  5321 W Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:get_Instance()
+05-08 14:50:45.577  5241  5321 W Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopup:Close()
+05-08 14:50:45.577  5241  5321 W Unity   : ClearState:Enter()
+05-08 14:50:45.577  5241  5321 W Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:45.577  5241  5321 W Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 14:50:45.577  5241  5321 W Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 14:50:45.577  5241  5321 W Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:50:45.577  5241  5321 W Unity   :
+05-08 14:50:45.577  5241  5321 I Unity   : [FPVIPEntryPopupInternal] gameObjectName = FPVIPEntryPopupGameObject
+05-08 14:50:45.577  5241  5321 I Unity   : UnityEngine.GameObject:AddComponent()
+05-08 14:50:45.577  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:get_Instance()
+05-08 14:50:45.577  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopup:Close()
+05-08 14:50:45.577  5241  5321 I Unity   : ClearState:Enter()
+05-08 14:50:45.577  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:45.577  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 14:50:45.577  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 14:50:45.577  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:50:45.577  5241  5321 I Unity   :
+05-08 14:50:45.578  5241  5321 I Unity   : [FPVIPEntryPopupInternal] close
+05-08 14:50:45.578  5241  5321 I Unity   : FunPlus.SDK.VIPEntryPopup.FPVIPEntryPopupInternal:Close()
+05-08 14:50:45.578  5241  5321 I Unity   : ClearState:Enter()
+05-08 14:50:45.578  5241  5321 I Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:45.578  5241  5321 I Unity   : <>c__DisplayClass13_0:<CreateCoverDoneAction>b__0()
+05-08 14:50:45.578  5241  5321 I Unity   : <DoCoverActionNextFrame>d__25:MoveNext()
+05-08 14:50:45.578  5241  5321 I Unity   : UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+05-08 14:50:45.578  5241  5321 I Unity   :
+05-08 14:50:46.188  5241  5321 E Unity   : Could not produce class with ID 81.
+05-08 14:50:46.188  5241  5321 E Unity   : This could be caused by a class being stripped from the build even though it is needed. Try disabling 'Strip Engine Code' in Player Settings.
+05-08 14:50:46.188  5241  5321 E Unity   : AssetBundleCache:LoadAsset(String, Action`1, Boolean, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.AssetBundleSynchro:SyncAssetBundlesEx(List`1, Action, Action`4, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.AssetBundleSynchro:SyncAssetBundles(List`1, Action, Action`4, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.AssetManager:LoadAsset(String, Action`2, Boolean, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 E Unity   : GameObjectCreateHelper:CreateGameObject(String, Action`1, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 E Unity   : KingdomAwakeState:RegisterPrefabs(ActivityControlSeasonConfigCell, Action, Boolean)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.StateMachine:ChangeState(Type)
+05-08 14:50:46.188  5241  5321 E Unity   : KingdomScene:EnterScene(Object)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.SceneManager:EnterScene(String, Object)
+05-08 14:50:46.188  5241  5321 E Unity   : KingdomState:Enter()
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:50:46.188  5241  5321 E Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:50:46.188  5241  5321 E Unity   :
+05-08 14:50:46.188  5241  5321 E Unity   : [ line -2107646456]
+05-08 14:50:46.188  5241  5321 E Unity   :
+05-08 14:50:46.188  5241  5321 W Unity   : GameObject contains a component type that is not recognized
+05-08 14:50:46.188  5241  5321 W Unity   : AssetBundleCache:LoadAsset(String, Action`1, Boolean, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.AssetBundleSynchro:SyncAssetBundlesEx(List`1, Action, Action`4, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.AssetBundleSynchro:SyncAssetBundles(List`1, Action, Action`4, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.AssetManager:LoadAsset(String, Action`2, Boolean, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 W Unity   : GameObjectCreateHelper:CreateGameObject(String, Action`1, Int32, Boolean)
+05-08 14:50:46.188  5241  5321 W Unity   : KingdomAwakeState:RegisterPrefabs(ActivityControlSeasonConfigCell, Action, Boolean)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.StateMachine:ChangeState(Type)
+05-08 14:50:46.188  5241  5321 W Unity   : KingdomScene:EnterScene(Object)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.SceneManager:EnterScene(String, Object)
+05-08 14:50:46.188  5241  5321 W Unity   : KingdomState:Enter()
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:50:46.188  5241  5321 W Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:50:46.188  5241  5321 W Unity   :
+05-08 14:50:46.188  5241  5321 W Unity   : [ line -2107645800]
+05-08 14:50:46.188  5241  5321 W Unity   :
+05-08 14:50:46.198  5241  5321 E Unity   : Could not produce class with ID 81.
+05-08 14:50:46.198  5241  5321 E Unity   : This could be caused by a class being stripped from the build even though it is needed. Try disabling 'Strip Engine Code' in Player Settings.
+05-08 14:50:46.198  5241  5321 E Unity   : AssetBundleCache:LoadAsset(String, Action`1, Boolean, Int32, Boolean)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.AssetBundleSynchro:SyncAssetBundlesEx(List`1, Action, Action`4, Int32, Boolean)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.AssetBundleSynchro:SyncAssetBundles(List`1, Action, Action`4, Int32, Boolean)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.AssetManager:LoadAsset(String, Action`2, Boolean, Int32, Boolean)
+05-08 14:50:46.198  5241  5321 E Unity   : GameObjectCreateHelper:CreateGameObject(String, Action`1, Int32, Boolean)
+05-08 14:50:46.198  5241  5321 E Unity   : KingdomAwakeState:RegisterPrefabs(ActivityControlSeasonConfigCell, Action, Boolean)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.StateMachine:ChangeState(Type)
+05-08 14:50:46.198  5241  5321 E Unity   : KingdomScene:EnterScene(Object)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.SceneManager:EnterScene(String, Object)
+05-08 14:50:46.198  5241  5321 E Unity   : KingdomState:Enter()
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.StateMachineV2:ChangeState(Type)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.GameFacade:Tick(Single)
+05-08 14:50:46.198  5241  5321 E Unity   : NexgenDragon.UnityWrapper:Update()
+05-08 14:50:46.198  5241  5321 E Unity   :
+05-08 14:50:46.198  5241  5321 E Unity   : [ line -2107645416]
+05-08 14:50:46.198  5241  5321 E Unity   :
