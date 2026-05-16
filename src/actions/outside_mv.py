@@ -3,7 +3,6 @@ from pathlib import Path
 import time
 
 from src.vision.vision import match_template
-from src.adb_client_v2 import connect_bluestacks
 
 ##------------- path
 
@@ -44,40 +43,40 @@ def go_to_wild(device: str) -> str:
     # 看右下角圖片是不是在外面(在外面的情況)
     found_wild, _ = match_template(screen_bytes, wild_template)
     if found_wild:
-        return "In the wild"
+        return "在城外"
     
     # 在家
     found_town, town_loc = match_template(screen_bytes, town_template)
     if not found_town:
-        return "Not in the town, either in the wild, please check it"
+        return "不在城外, 也不再城內, 不知道怎麼了"
     x, y = town_loc
     _tap(device, x, y)
     
     
-    time.sleep(3)
+    time.sleep(5)
     
     # 從家裡出來, 再確認一次是不是在外面
     screen_bytes = _take_screenshot(device)
     found_wild_after, _ = match_template(screen_bytes, wild_template)
     if found_wild_after:
-        return "In the wild"
+        return "在城外"
     else:
-        return "Tapped town icon but not outside the wild, please check it"
+        return "按了城外按鈕, 但沒出去, 幫我確認"
     
-def search_in_wild() -> bool:
+# def search_in_wild() -> bool:
 
 
 
 ## unit test
 
 if __name__ == "__main__":
+
+    from src.adb_client_v2 import connect_bluestacks
+
     ok, device_or_err = connect_bluestacks()
     if not ok:
         print(f"[FAIL] connect: {device_or_err}")
         raise SystemExit(1)
     
-    device = device_or_err
-    print(f"[OK] device = {device}")
-
-    result = go_to_wild(device)
-    print(result)
+    print(f"[OK] device = {device_or_err}")
+    print(go_to_wild(device_or_err))

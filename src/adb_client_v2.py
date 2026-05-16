@@ -3,43 +3,37 @@ from pathlib import Path
 
 ADB = Path(__file__).parent.parent / "tools" / "adb.exe"
 
-# 預設port
-DEFAULT_PORT = 5555
-
-def _run_adb(args: list[str], timeout: int = 10) -> tuple[int, str, str]:
+## 中文編碼問題
+def _run_adb(args: list[str]) -> tuple[str, str]:
     
     result = subprocess.run(
         [str(ADB)] + args,
         capture_output=True,
-        text=True,
-        timeout=timeout,
+        encoding="utf-8",
+        errors="replace",
     )
-    return result.returncode, result.stdout.strip(), result.stderr.strip()
+    stdout = (result.stdout or "").strip()
+    stderr = (result.stderr or "").strip()
+    return stdout, stderr
 
-# 有預設值
-def connect_bluestacks(port: int = DEFAULT_PORT) -> tuple[bool, str]:
+def connect_bluestacks(port: int) -> tuple[bool, str]:
 
     target = f"127.0.0.1:{port}"
 
-    ##check
-    try:
-        rc, stdout, stderr = _run_adb(["devices"])
-    except subprocess.TimeoutExpired:
-        return False, "adb devices command time out"
+    ##try to connect
+    stdout, stderr = _run_adb(["connect", target])
+    low = stdout.lower()
 
-    if rc != 0:
-        return False, f"adb devces failed: {stderr}"
+    if "cannot connect" in low or "failed to connect" in low:
+        return False, stdout.splitlines()[0] if stdout else stderr
 
-    ##connect
-    rc, stdout, stderr = _run_adb(["connect", target])
-    if rc != 0:
-        return False, f"adb connect failed: {stderr or stdout}"
+    ##connect- with connected or already connected two situations
+    if "connected" not in low:
+        return False, f"unexpected adb output: {stdout or stderr}"
 
-    if "connected" not in stdout.lower() and "already" not in stdout.lower():
-        return False, f"adb connect rejected: {stdout}"
 
     ##check again when connected
-    rc, stdout, _ = _run_adb(["devices"])
+    stdout, _ = _run_adb(["devices"])
 
     for line in stdout.splitlines():
         if not line or line .startswith("List of"):
@@ -52,17 +46,28 @@ def connect_bluestacks(port: int = DEFAULT_PORT) -> tuple[bool, str]:
             if state == "device":
                 return True, target
             else:
-                return False, f"Device {target} is in state: {state}"
+                return False, f"{target} state: {state}"
 
-    return False, f"Device {target} not found in adb devices list"
+    return False, f"{target} not found in devices list"
         
+def disconnect_all() -> tuple[bool, str]:
+    stdout, stderr = _run_adb(["disconnect"])
+
+    output = (stdout + stderr).lower()
+
+    if "disconnected everything" in output:
+        return True, stdout or "disconnected everything"
+
+    if not stdout and not stderr:
+        return True, "no active connections"
+
+    return False, f"非預期錯誤: {stdout or stderr}"
+
+
+
 
 ## unit test
 if __name__ == "__main__":
 
-    success, message = connect_bluestacks()
-
-    if success:
-        print(f"[OK] connected to {message}")
-    else:
-        print(f"[False] {message}")
+    ok, msg = disconnect_all()
+    print(f"{'OK' if ok else 'FAIL'} {msg}")
