@@ -10,7 +10,7 @@ from src.actions.outside_mv import go_to_wild
 
 
 #-------config
-VM_PORTS = [5565, 5575,5585, 5595, 5605]
+VM_PORTS = [5555, 5575,5565, 5595, 5605]
 
 ## 清單
 ACTIONS = {
@@ -223,6 +223,7 @@ class AutorunApp(App):
         else:
             console.log("[red]No VM connected.[/red] Check BlueStacks/ADB.")
 
+    @work(thread=True, group="connect")
     def disconnect_all_vms(self) -> None:
         console.log("切斷全部連線中...")
         
