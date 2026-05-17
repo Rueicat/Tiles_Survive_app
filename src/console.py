@@ -12,8 +12,8 @@ class Console:
 
     def log(self, message: str) -> None:
 
-        # timestamp(May it will remove later)
-        timestamp = datetime.now().strftime("%H:%M:%S")
+        # timestamp(May it will remove later)   %H pull it off
+        timestamp = datetime.now().strftime("%M:%S")
         line = f"{timestamp}\n{message}"
 
         ## 沒啟動print到cli, 有啟動丟到tui
