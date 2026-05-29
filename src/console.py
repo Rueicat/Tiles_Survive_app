@@ -14,7 +14,8 @@ class Console:
 
         # timestamp(May it will remove later)   %H pull it off
         timestamp = datetime.now().strftime("%M:%S")
-        line = f"{timestamp}\n{message}"
+        line = f"{message}"
+        #line = f"{timestamp}\n{message}"
 
         ## 沒啟動print到cli, 有啟動丟到tui
         if self.widget is not None:

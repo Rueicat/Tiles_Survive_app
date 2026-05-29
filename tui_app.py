@@ -10,7 +10,9 @@ from src.adb_client_v2 import (
     disconnect_all,
     MAX_VMS,
 )
+
 from src.actions.outside_mv import go_to_wild
+from src.actions.kill_zombie_big import kill_zombie_big
 
 
 #-------config
@@ -19,6 +21,7 @@ NUM_SLOTS = MAX_VMS  # = 5
 ## 清單
 ACTIONS = {
     "出城": go_to_wild,
+    "打殭屍首領": kill_zombie_big,
 }
 
 USER_NOTE = """\

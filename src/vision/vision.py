@@ -55,9 +55,14 @@ def match_template(original_bytes: bytes, template: str, threshold: float = 0.8)
     if max_score < threshold:
         return False, None
 
+    ##5/29 匹配的座標, 是""左上角""那個點
+    th, tw = template_img.shape[:2]
+    center_x = max_loc[0] + tw // 2
+    center_y = max_loc[1] + th // 2
+
     #記得還原成原始圖片比例的座標
-    original_x = int(max_loc[0] / scale )
-    original_y = int(max_loc[1] / scale )
+    original_x = int(center_x / scale )
+    original_y = int(center_y / scale )
     original_loc = (original_x, original_y)
     
 
